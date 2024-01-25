@@ -1,0 +1,67 @@
+@import "../../../style.css";
+@import "../../css/root.css";
+
+.btn__one {
+  border-radius: var(--border-radius-size-2);
+  background-color: var(--color-background-3);
+  width: 127.95px;
+  height: 44.49px;
+  border: 1px solid var(--color-background-3);
+  color: var(--color-background-0);
+  font-weight: 600;
+  font-size: var(--size-text-5);
+  font-family: "Montserrat", sans-serif;
+}
+.btn__two {
+  border: 1px solid var(--color-background-3);
+  background-color: var(--color-background-0);
+  width: 90.66px;
+  height: 36px;
+  color: var(--color-text-9);
+  border-radius: var(--border-radius-size-0);
+  font-size: var(--size-text-4);
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 12px;
+}
+.primary__dropdown {
+  font-size: var(--size-text-5);
+  font-family: 'Montserrat', sans-serif; 
+  color: var(--color-text-12);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 16px 0;
+}
+
+.primary__dropdown--button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-text-0);
+  border-radius: var(--border-radius-size-6);
+  width: fit-content;
+  padding: 8px 13px;
+}
+.primary__dropdown--button:hover {
+    cursor: pointer;
+}
+.primary__dropdown--button span {
+}
+.primary__dropdown--icon {
+    margin-left: 6px;
+}
+.primary__dropdown--icon ion-icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+.primary__dropdown--menu {
+  position: absolute;
+  visibility: hidden;
+}
+.primary__dropdown--menu--item {
+}
+.primary__dropdown--menu--item li a {
+}

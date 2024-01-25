@@ -1,0 +1,54 @@
+:root{
+	/* List colors background */
+	--color-background-0:#FFFFFF;
+	--color-background-1:#212121;
+	--color-background-2:#F5F5F5;
+	--color-background-3:#FF5B00;
+	--color-background-4:#FFF0E5;
+	--color-background-5:#F3F3F3;
+	--color-background-6:#08B371;
+	--color-background-7:#F09B0A;
+	--color-background-8:#FFF0E5;
+	--color-background-9:#EFF6FC;
+	--color-background-10:#6056d6;
+	--color-background-11:#030180;
+	--color-background-12:#7C7A7A;
+
+	/* List color text */
+	--color-text-0:#000000;
+	--color-text-1:#212121;
+	--color-text-2:#757575;
+	--color-text-3:#F3F3F3;
+	--color-text-4:#08B371;
+	--color-text-7:#F09B0A;
+	--color-text-8:#fff;
+	--color-text-9:#ff5b00;
+	--color-text-10:#00848C;
+	--color-text-11:#6056d6;
+	--color-text-12:#333;
+	--color-text-13:#7C7A7A;
+
+
+	/* List text size */
+	--size-text-0:6px;
+	--size-text-1:8px;
+	--size-text-2:10px;
+	--size-text-3:12px;
+	--size-text-4:14px;
+	--size-text-5:16px;
+	--size-text-6:20px;
+	--size-text-7:24px;
+	--size-text-8:26px;
+	--size-text-9:27px;
+	--size-text-10:28px;
+	--size-text-11:29px;
+	/* List border radius */
+	--border-radius-size-0:6px;
+	--border-radius-size-1:8px;
+	--border-radius-size-2:12px;
+	--border-radius-size-3:14px;
+	--border-radius-size-4:16px;
+	--border-radius-size-5:20px;
+	--border-radius-size-6:999px;
+
+}

@@ -1,0 +1,55 @@
+@import "./../../../style.css";
+.container__login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    font-family: sans-serif;
+    margin: 8% 0;
+    
+}
+.container__login--alert{
+    width: 436px;
+    height: 390px;
+    border-radius: 20px;
+  padding: 50px;
+  background-color: #FFFFFF;
+}
+.container__login--alert__icon{
+text-align: center;
+}
+.container__login--alert__icon--check{
+    font-size: 50px;
+    color: #08B371;
+}
+.container__login--alert__title{
+    font-size: 24px;
+    text-align: center;
+}
+.container__login--alert__description{
+    font-size: 12px;
+    color: #757575;
+    text-align: center;
+    margin: 20px 0;
+}
+.container__login--alert__btn{
+    width: 336px;
+    height: 44px;
+    border:0 solid #000000;
+    background-color: #FF5B00;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.container__login--alert__list{
+    display: inline-flex;
+    margin: 20px 0;
+}
+.container__login--alert__list--item__description{
+    font-size: 12px;
+    color: #757575;
+    margin: 0 10px;
+}

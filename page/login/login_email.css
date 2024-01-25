@@ -1,0 +1,130 @@
+@import "./../../../style.css";
+.container__login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    font-family: sans-serif;
+    margin: auto;
+    
+}
+.login__header--title{
+    font-size: 28px;
+    margin-top:42px
+}
+.login{
+    width: 436px;
+    height: 575px; 
+  border-radius: 20px;
+  padding: 50px;
+}
+.login__header--sub{
+    font-size: 14px;
+    opacity: 0.8;   
+}
+.login__header--sub{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 340px;
+}
+.login__form--input{
+    margin-top: 20px;
+}
+
+.login__form--list__item{
+    display: inline;
+    padding-left: 50px;
+    
+}
+.login__form--list__item--email,.login__form--list__item--number{
+    color: #000000;
+}
+.login__form--input{
+    width: 340px;
+    height: 70px;
+    position: relative;
+    
+}
+.login__form--input__nbp{
+    width: 340px;
+    height: 44px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__form--input__nbp--name,.login__form--verification{
+    width: 340px;
+    height: 44px;
+    border: 0.5px solid #757575;
+    border-radius: 10px; 
+    font-size: 16px;
+    padding: 10px;
+}
+
+.login__form--input__nbp--icon__email{
+    font-size: 20px;
+    color: #000000;
+    margin-left: -30px;
+    
+}
+
+.login__form--list__item--line1,
+    .login__form--list__item--line2{
+    width: 170px;
+   border-radius: 5px;
+   
+}
+.login__form--list__line{
+    height: 4px;
+    display: inline-flex;
+    
+}
+.login__form--list__item--line2{
+    height: 2px;
+    background-color: #757575;
+    margin-top: 1px;
+}
+.login__form--list__item--line1{
+    height: 4px;
+    background-color: #FF5B00;
+    
+}
+.login__form--verification{
+border-style: none;
+
+margin-bottom: 20px;
+}
+.login__form--verification__text{
+    font-weight: 700;
+color: #757575;
+}
+
+.login__footer--title{
+    display: inline-flex;
+    width: 340px;
+    margin: 30px 0;
+   
+}
+.login__footer--title__line1,.login__footer--title__line2{
+width: 108px;
+height: 0.5px;
+background-color: #757575;
+margin: 7px 1px 0 1px;
+}
+.login__footer--title__choose{
+    font-size: 12px; 
+}
+.login__footer--network{
+    text-align: center;
+    
+}
+.login__footer--network__gg,.login__footer--network__fb{
+    display: inline-flex;
+}
+.login__footer--network__fb--img,.login__footer--network__gg--img{
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+}

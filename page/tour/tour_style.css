@@ -1,0 +1,51 @@
+@import "../../../style.css";
+@import "../../css/root.css";
+
+.tour {
+}
+/* banner */
+.tour__banner {
+  background-image: url("../../img/tourbanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+  padding-top: 64px;
+}
+.tour__banner--heading {
+  color: var(--color-text-8);
+  font-family: "Montserrat", sans-serif;
+}
+.tour__banner--heading h1 {
+  font-size: 60px;
+}
+.tour__banner--heading h2 {
+  font-size: 20px;
+  margin-top: 8px;
+}
+.tour__banner--search {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 48px;
+  border-radius: 30px;
+  background-color: var(--color-background-0);
+}
+.tour__banner--search__icon {
+  padding: 0px 20px 0 20px;
+  display: flex;
+  align-items: center;
+}
+.tour__banner--search__icon ion-icon {
+  width: 24px;
+  height: 24px;
+  
+}
+.tour__banner--search__input input {
+    font-size: var(--size-text-5);
+}
+.tour__filter{
+  display: flex;
+  
+}

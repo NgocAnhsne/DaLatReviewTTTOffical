@@ -1,0 +1,57 @@
+/*
+	* Theme Name: DaLatReviewTheme
+	* Description: Theme  wordpress create by team
+	* Theme URI: 
+	* Version: 1.0
+	* Author: team
+	* Author URI: 
+	* Tags: theme wordpress, responsive
+	* Textdomain: DaLatReviewTheme
+	* Language Folder: /languages
+	* font-family: 'Montserrat', sans-serif; 
+ 	* font-family: 'Playfair Display', serif; 
+ */
+@import "root.css";
+@import "mobile_style.css" screen and (max-width: 450px);
+@import "tablet_style.css" screen and (max-width: 704px);
+@import "desktop_style.css";
+
+/*! RESET STYLE */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  color: black;
+  scroll-behavior: smooth;
+}
+img {
+  width: 100%;
+  display: block;
+}
+a {
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  color: #000;
+}
+button,
+input {
+  outline: none;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.row-max-width {
+  width: 100%;
+  max-width: 1160px;
+  margin: auto;
+}
