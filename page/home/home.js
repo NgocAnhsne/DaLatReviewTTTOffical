@@ -1,9 +1,14 @@
 const ListImage = document.querySelector('.home__slider--list__images');
+const hamburgerBtn = document.querySelector('.header__top--left__hamburger');
 const imgs = document.querySelectorAll('.home__slider--item__image');
 const btnLeft = document.querySelector('.home__slider--btn__left');
 const btnRight = document.querySelector('.home__slider--btn__right');
 const lenght = imgs.length;
 let current = 0;
+
+hamburgerBtn.addEventListener('click',()=>{
+    hamburgerBtn.classList.toggle('active');
+})
 
 const handleChangeSlide = () =>{
     if(current == lenght - 1){
