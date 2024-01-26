@@ -31,10 +31,7 @@ html {
   color: black;
   scroll-behavior: smooth;
 }
-img {
-  width: 100%;
-  display: block;
-}
+
 a {
   -webkit-tap-highlight-color: transparent;
   text-decoration: none;
@@ -49,6 +46,8 @@ input {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .row-max-width {
   width: 100%;

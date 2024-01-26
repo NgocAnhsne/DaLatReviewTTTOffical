@@ -1,5 +1,5 @@
 @import "../../../style.css";
-@import "../../css/root.css";
+@import "../../assets/components/root.css";
 
 .tour {
 }
@@ -30,7 +30,7 @@
   width: 400px;
   height: 48px;
   border-radius: 30px;
-  background-color: var(--color-background-0);
+  background-color: var(--color-background-6);
 }
 .tour__banner--search__icon {
   padding: 0px 20px 0 20px;
