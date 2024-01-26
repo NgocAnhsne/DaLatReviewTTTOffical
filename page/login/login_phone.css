@@ -1,4 +1,5 @@
 @import "./../../../style.css";
+@import"../../assets/components/root.css";
 .container__login{
     width: 100%;
     display: flex;
@@ -8,19 +9,21 @@
     margin: auto;
 }
 .login__header--title{
-    font-size: 28px;
+    font-size: var(--size-text-10);
     margin-top:42px
 }
 .login{
     width: 436px;
     height: 575px; 
-  border-radius: 20px;
+  border-radius: var(--border-radius-size-5);
   padding: 50px;
 }
 .login__header--sub,.login__form--input__description{
-    font-size: 14px;
+    font-size: var(--size-text-4);
     opacity: 0.8;   
 }
+
+
 .login__header--sub{
     margin-top: 10px;
     margin-bottom: 30px;
@@ -36,7 +39,10 @@
     
 }
 .login__form--list__item--email,.login__form--list__item--number{
-    color: #000000;
+    color: var(--color-text-0);
+    font-size: var(--size-text-5);
+    background-color: var(--color-background-6);
+    
 }
 .login__form--input{
     width: 340px;
@@ -57,13 +63,13 @@
     height: 44px;
     border: 0.5px solid #757575;
     border-radius: 10px; 
-    font-size: 16px;
+    font-size: var(--size-text-5);
     padding: 10px;
 }
 
 .login__form--input__nbp--icon__phone{
-    font-size: 20px;
-    color: #000000;
+    font-size: var(--size-text-6);
+    color: var(--color-text-0);
     margin-left: -30px;
     
 }
@@ -83,26 +89,28 @@ margin-top: 20px;
 }
 .login__form--list__item--line1{
     height: 2px;
-    background-color: #757575;
+    background-color: var(--color-background-2);
     margin-top: 1px;
 }
 .login__form--list__item--line2{
     height: 4px;
-    background-color: #FF5B00;
+    background-color: var(--color-background-7);
     
 }
 .login__form--verification{
 border-style: none;
-
 margin-bottom: 20px;
+font-weight: 700;
+color: var(--color-text-2);
 }
-.login__form--verification__text{
-    font-weight: 700;
-color: #757575;
+.login__form--verification:hover{
+    background-color: #e05000;
+    color: var(--color-text-6);
 }
+
 .login__form--password{
-    font-size: 12px;
-    color: #757575;
+    font-size: var(--size-text-3);
+    color: var(--color-text-2);
     text-decoration: underline;  
 }
 .login__footer--title{
@@ -114,11 +122,11 @@ color: #757575;
 .login__footer--title__line1,.login__footer--title__line2{
 width: 108px;
 height: 1px;
-background-color: #757575;
+background-color: var(--color-background-2);
 margin: 7px 1px 0 1px;
 }
 .login__footer--title__choose{
-    font-size: 12px; 
+    font-size: var(--size-text-3); 
 }
 .login__footer--network{
     text-align: center;

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/css/login/login_phone.css" />
+    <link rel="stylesheet" href="/page/login/login_phone.css" />
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -12,6 +12,11 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script type="text/javascript">
+      function login_email() {
+        window.location = "login_email.html";
+      }
+    </script>
     <title>Login_phone</title>
   </head>
   <body>
@@ -27,14 +32,19 @@
         <div class="login__form">
           <ul class="login__form--list">
             <li class="login__form--list__item">
-              <a class="login__form--list__item--email" href=""
-                >Địa chỉ email</a
+              <button
+                type="button"
+                onclick="login_email()"
+                class="login__form--list__item--email"
+                value="Địa chỉ email"
               >
+                Địa chỉ email
+              </button>
             </li>
             <li class="login__form--list__item">
-              <a class="login__form--list__item--number" href=""
-                >Số điện thoại</a
-              >
+              <button class="login__form--list__item--number">
+                Số điện thoại
+              </button>
             </li>
             <li class="login__form--list__line">
               <div class="login__form--list__item--line1"></div>
@@ -66,11 +76,7 @@
             </p>
             <!--  -->
           </form>
-          <button class="login__form--verification">
-            <a class="login__form--verification__text" href=""
-              >Gửi mã xác nhận</a
-            >
-          </button>
+          <button class="login__form--verification">Gửi mã xác nhận</button>
           <a class="login__form--password" href="">Đăng nhập bằng mật khẩu</a>
         </div>
         <!-- login--footer -->
@@ -84,14 +90,14 @@
             <a class="login__footer--network__fb" href=""
               ><img
                 class="login__footer--network__fb--img"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/480px-Facebook_Logo_%282019%29.png"
+                src="/assets/img/fb_logo.png"
                 alt=""
             /></a>
 
             <a class="login__footer--network__gg" href=""
               ><img
                 class="login__footer--network__gg--img"
-                src="https://i.pinimg.com/736x/74/65/f3/7465f30319191e2729668875e7a557f2.jpg"
+                src="/assets/img/gg_logo.jpg"
                 alt=""
             /></a>
           </div>
