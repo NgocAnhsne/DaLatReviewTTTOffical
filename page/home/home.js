@@ -8,7 +8,6 @@ let current = 0;
 
 hamburgerBtn.addEventListener('click',()=>{
     hamburgerBtn.classList.toggle('active');
-    console.log(1);
 })
 
 const handleChangeSlide = () =>{
