@@ -22,15 +22,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    
     <!-- Customized Bootstrap Stylesheet -->  
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./footer.css">
     
 </head>
-<body>
-
-
+<body>  
     <!-- coppy from here !  -->
-
-    <div class="suggestion__internal">
+    <div class="suggestion__internal row-max-width">
         <div class="suggestion__internal--wrap">
             <h2 class="suggestion__internal--title">Khám phá thêm trên Đà Lạt Review !</h2>
 
@@ -104,17 +101,20 @@
         </div>
     </div>
 
+
+
+    <div class="layout__footer-devider"></div>
     <!-- phần footer -->
-    <footer>
+    <footer class="layout__default--footer row-max-width">
         <div class="layout__footer--wrapper">
-        <div class="layout__footer-devider"></div>
-        <div></div>
-        <div class="layout__footerBanner--wrapper">
-            <div class="footer__banner">
+
+            <div class="layout__footerBanner--wrapper">
+                <div class="footer__banner-left">
+               <!-- cột 1 -->
+               <div class="footer__banner">
                 <div class="footer__banner--title">
                     Thông tin liên hệ
                 </div>
-                <!-- cột 1 -->
                 <div class="footer__banner--content">
                     <ul class="footer__listUnit">
                         <li>Công ty TNHH Đà Lạt Review Tất Tần Tật</li>
@@ -161,17 +161,18 @@
                     </ul>
                 </div>
             </div>
+         </div>
             <!-- cột 4 -->
-            <div class="footer__banner">
+            <div class="footer__banner-right">
                 <div class="footer__banner--title">
                     Bản đồ
                 </div>
                 <div class="footer__banner--content">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d580.2081866171173!2d108.4412894153042!3d11.963430698647404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d11.963502!2d108.4415604!5e0!3m2!1svi!2s!4v1706154263010!5m2!1svi!2s" width="290px" height="154" frameborder="0" style="border-radius: 16px;" allowfullscreen></iframe>
+                    <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1160.4162387727945!2d108.4411451931558!3d11.963462031245864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317112c5ba5970a1%3A0x900519971f498118!2zMTA4IEzDvSBOYW0gxJDhur8sIFBoxrDhu51uZyA4LCBUaMOgbmggcGjhu5EgxJDDoCBM4bqhdCwgTMOibSDEkOG7k25nIDY2MTA2!5e0!3m2!1svi!2s!4v1706237902739!5m2!1svi!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
     </footer>
     
 <!-- end -->

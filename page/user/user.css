@@ -1,81 +1,149 @@
+ @import url(../../assets/components/root.css);
+ /*! RESET STYLE */
+ *,
+ *::before,   
+ *::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ html {
+   font-family: Roboto, sans-serif;
+   font-size: 16px;
+   text-rendering: optimizeLegibility;
+   color: black;
+   scroll-behavior: smooth;
+ }
+
+ img {
+   width: 100%;
+   display: block;
+ }
+
+ a {
+   -webkit-tap-highlight-color: transparent;
+   text-decoration: none;
+   color: var(--color-text-2);
+ }
+
+ button,
+ input {
+   outline: none;
+   border: none;
+   -webkit-tap-highlight-color: transparent;
+ }
+
+ ul,
+ ol {
+   list-style-type: none;
+   padding: 0;
+ }
+
+ .row-max-width {
+   width: 100%;
+   max-width: 1920px;
+   margin: auto;
+ }
+
  /* css from here  */
- .page--user_center-container{
-    background-color: rgb(250, 250, 250);
-  }
-  .pager--user_center-box{
-    margin: 0 auto;
-    padding-bottom: 80px;
-    padding-top: 40px;
-    width: 1160px;
-  }
+
+ .user__center{
+  background-color: var(--color-background-12);
+ }
+ .user__center--container {
+  width: 100%;
    
-  .fill__more--info{
-    align-items: center;
-    background-color: #ecf3fc;
-    border: 1px solid rgba(67,125,255,.3);
-    border-radius: 6px;
-    display: flex;
-    margin-bottom: 16px;
-    padding: 12px 16px;
+ }
+
+ .user__center--container {
+   margin: 0 auto;
+   padding-bottom: 80px;
+   padding-top: 40px;
+   max-width: 1160px;
+ }
+
+ .user__center--container__box--fill__more--info{
+   align-items: center;
+   background-color: #e0e0e0;
+   border: 1px solid rgba(67, 125, 255, .3);
+   border-radius: 6px;
+   display: flex;
+   margin-bottom: 16px;
+   padding: 12px 16px;
+
+ }
+
+ .user__center--container__box--fill__more--info img {
+   margin-right: 8px;
+   width: 20px;
+   height: 20px;
+ }
+
+ .user__center--container__box--fill__more--info span {
+   font-size: 16px;
+   font-family: Helvetica, Arial, sans-serif;
+   line-height: 0;
+ }
+
+ .user__center--container__box--fill__more--info ion-icon {
+   width: 16px;
+   height: 16px;
+   margin-left: auto;
+ }
+
+ .user__center--container__page{
+   display: flex;
+   justify-content: space-between;
   
-  }
-   .fill__more--info img{
-    margin-right: 8px;
-    width: 20px;
-    height: 20px;
-   }
-   .fill__more--info span{
-    font-size: 16px;
-    font-family: Helvetica,Arial,sans-serif;
-    line-height: 0;
-   }
-  
-   .fill__more--info ion-icon{
-    width: 16px;
-    height: 16px;
-    margin-left: auto;
-  }
-  .page--user__center{
-    display: flex;
-    justify-content: space-between;
-    width: 1160px;
-    height: 1011px;
-  
-  
-  }
-  .sidebar__profile{
-    display: flex;
-      align-items: center;
-      flex-direction: column;
-      justify-content: center;
-      min-height: 238px;
-      padding: 40px 0 30px;
-      text-align: center;
-      width: 100%;
-  }
-  .member--info{
-    background-image: url("/src/landing-explorer-bg.png");
-    background-repeat: no-repeat;
-    border-radius: 12px;
-    width: 275px;
-  }
-  
-  .page--user__content{
-    width: 865px;
-    height: 621px;
-  }
-  
-  /* avatar- user  */
-  
-  .profile--avatar{
-      border: 2px solid #fff;
-      border-radius: 50%;
-      box-shadow: 0 4px 10px 0 rgba(0,0,0,.14);
-      height: 90px;
-      margin-bottom: 18px;
-      position: relative;
-      width: 90px;
-  }
-  .profile--avatar img{
-    border-radius: 50%;
-  }
+
+ }
+
+ .user__center--container__sidebar__profile{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   min-height: 238px;
+   padding: 40px 0 30px;
+   text-align: center;
+   width: 100%; 
+ }
+
+ .member--info {
+   background-image: url("../../assets/img/user_background.png");
+   background-repeat: no-repeat;
+   border-radius: 12px;
+   width: 275px;
+ }
+
+ .page--user__content {
+   width: 865px;
+   height: 621px;
+ }
+
+ /* avatar- user  */
+
+ .user__center--container__sidebar--profile__avatar {
+   border: 2px solid #fff;
+   border-radius: 50%;
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.14);
+   height: 90px;
+   margin-bottom: 18px;
+   position: relative;
+   width: 90px;
+ }
+
+ .user__center--container__sidebar--profile__avatar img {
+  border-radius: 9999px;
+ }
+
+ .user__center--container__sidebar__profile h2{
+  font-size: var(--size-text-5);
+  color: var(	--color-text-6);
+  font-weight: 600;
+  line-height: 1.16;
+  max-height: 81px;
+  max-width: 214px;
+  overflow: hidden;
+ }
