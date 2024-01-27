@@ -6,14 +6,19 @@
     <title>Đà Lạt Review</title>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/page/home/home.css">
 </head>
 <body>
     <header>
         <div class="header__content--top">
             <div class="header__top">
                 <div class="header__top--left">
-                    <img src="/img/logo.png" alt="" class="header__top--left__logo">
+                    <div class="header__top--left__hamburger">
+                        <div class="header__top--left__hamburger--box">
+                        </div>
+                    </div>
+                    <img src="/assets/img/home-logo.png" alt="" class="header__top--left__logo">
+                    <div class="header__top--left__namewebsite">Đà Lạt Review Tất Tần Tật</div>
                     <div class="header__top--left__search">
                         <input type="text" class="header__top--left__search--input" placeholder="Tìm theo điểm đến, hoạt động">
                         <ion-icon name="search-outline"></ion-icon>
@@ -23,7 +28,7 @@
                     <ul>
                         <li>
                             <a href="#" class="header__top--right__item">
-                                <img src="/images/flag-vi.png" alt="" class="local">
+                                <img src="/assets/img/home-flag-vi.png" alt="" class="local">
                                 <ion-icon name="caret-down-outline"></ion-icon>
                             </a>
                         </li>
@@ -55,8 +60,23 @@
                         </li>
                     </ul>
                 </div>
+                <div class="header__top--right__mobile">
+                    <div class="header__top--right__mobile--item">
+                        <a href=""><ion-icon name="search-outline"></ion-icon></a>
+                    </div>
+                    <div class="header__top--right__mobile--item">
+                        <a href=""><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                    <div class="header__top--right__mobile--item">
+                        <a href=""><ion-icon name="person-outline"></ion-icon></a>
+                    </div>
+                </div>
             </div>
         </div>
+    </header>
+
+    <section class="home">
+        <!-- home header -->
         <div class="header__content--bottom">
             <div class="header__bottom">
                 <div class="header__bottom--listlink">
@@ -86,50 +106,51 @@
                                 </ul>
                                 <ul class="header__bottom--listlink__allcategory--list__item">
                                     <div class="header__bottom--listlink__allcategory--list__item--title">
-                                        Tour & trải nghiệm
+                                        Vé tham quan
                                     </div>
                                     <div class="header__bottom--listlink__allcategory--list__item--content">
-                                        <p><a href="#">Tour<ion-icon name="chevron-forward"></ion-icon></a></ion-icon></p>
-                                        <p><a href="#">Đạp vịt<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Phiêu lưu & khám phá thiên nhiên<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Tour săn mây<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Tour Đà Lạt một ngày<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Công viên giải trí<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Công viên nước<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Bảo tàng<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Công viên & Vườn bách thảo<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Sở thú & Vườn thủy cung<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Cáp treo<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Di tích lịch sử<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Khu vui chơi<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Vui chơi trong nhà<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Vé tham quan<ion-icon name="chevron-forward"></ion-icon></a></p>
                                     </div>
                                 </ul>
                                 <ul class="header__bottom--listlink__allcategory--list__item">
                                     <div class="header__bottom--listlink__allcategory--list__item--title">
-                                        Tour & trải nghiệm
+                                        Lưu trú
                                     </div>
                                     <div class="header__bottom--listlink__allcategory--list__item--content">
-                                        <p><a href="#">Tour<ion-icon name="chevron-forward"></ion-icon></a></ion-icon></p>
-                                        <p><a href="#">Đạp vịt<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Phiêu lưu & khám phá thiên nhiên<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Tour săn mây<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Tour Đà Lạt một ngày<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Combo du lịch Đà Lạt<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Khách sạn<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Villa<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Resort<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Homestay<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Nhà nghỉ<ion-icon name="chevron-forward"></ion-icon></a></p>
                                     </div>
                                 </ul>
                                 <ul class="header__bottom--listlink__allcategory--list__item">
                                     <div class="header__bottom--listlink__allcategory--list__item--title">
-                                        Tour & trải nghiệm
+                                        Di chuyển
                                     </div>
                                     <div class="header__bottom--listlink__allcategory--list__item--content">
-                                        <p><a href="#">Tour<ion-icon name="chevron-forward"></ion-icon></a></ion-icon></p>
-                                        <p><a href="#">Đạp vịt<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Phiêu lưu & khám phá thiên nhiên<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Tour săn mây<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Tour Đà Lạt một ngày<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Thuê xe máy<ion-icon name="chevron-forward"></ion-icon></a></ion-icon></p>
+                                        <p><a href="#">Thuê ô tô<ion-icon name="chevron-forward"></ion-icon></a></p>
                                     </div>
                                 </ul>
                                 <ul class="header__bottom--listlink__allcategory--list__item">
                                     <div class="header__bottom--listlink__allcategory--list__item--title">
-                                        Tour & trải nghiệm
+                                        Thêm nhiều khám phá
                                     </div>
                                     <div class="header__bottom--listlink__allcategory--list__item--content">
-                                        <p><a href="#">Tour<ion-icon name="chevron-forward"></ion-icon></a></ion-icon></p>
-                                        <p><a href="#">Đạp vịt<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Phiêu lưu & khám phá thiên nhiên<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Tour săn mây<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Tour Đà Lạt một ngày<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Chụp hình ngoại cảnh<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Chụp hình studio<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Chụp hình cưới<ion-icon name="chevron-forward"></ion-icon></a></p>
                                     </div>
                                 </ul>
    
@@ -141,76 +162,124 @@
                             </a>
                             <div class="header__bottom--listlink__category1--list">
                                 <ul class="header__bottom--listlink__category1--list__item">
-                                    <div class="header__bottom--listlink__category1--list__item--title">
-                                        Tour & trải nghiệm
-                                    </div>
                                     <div class="header__bottom--listlink__allcategory--list__item--content">
-                                        <p><a href="#">Tour<ion-icon name="chevron-forward"></ion-icon></a></ion-icon></p>
-                                        <p><a href="#">Đạp vịt<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Phiêu lưu & khám phá thiên nhiên<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Tour săn mây<ion-icon name="chevron-forward"></ion-icon></a></p>
-                                        <p><a href="#">Tour Đà Lạt một ngày<ion-icon name="chevron-forward"></ion-icon></a></p>
+                                        <p><a href="#">Tour</a></p>
+                                        <p><a href="#">Tour săn mây</a></p>
+                                        <p><a href="#">Tour Đà Lạt một ngày</a></p>
+                                        <p><a href="#">Camping & Glamping</a></p>
                                     </div>
                                 </ul>
-
+                            </div>
                         </li>
-                        <li>
+                        <li class="header__bottom--listlink__category2">
                             <a href="#">
                                 Vé tham quan
                             </a>
+                            <div class="header__bottom--listlink__category2--list">
+                                <ul class="header__bottom--listlink__category2--list__item">
+                                    <div class="header__bottom--listlink__allcategory--list__item--content">
+                                        <p><a href="#">Công viên giải trí</a></p>
+                                        <p><a href="#">Công viên nước</a></p>
+                                        <p><a href="#">Bảo tàng</a></p>
+                                        <p><a href="#">Công viên & Vườn bách thảo</a></p>
+                                        <p><a href="#">Sở thú & Vườn thủy cung</a></p>
+                                        <p><a href="#">Cáp treo</a></p>
+                                        <p><a href="#">Di tích lịch sử</a></p>
+                                        <p><a href="#">Khu vui chơi</a></p>
+                                        <p><a href="#">Vui chơi trong nhà</a></p>
+                                        <p><a href="#">Vé tham quan</a></p>
+                                    </div>
+                                </ul>
+                            </div>
                         </li>
-                        <li>
+                        <li class="header__bottom--listlink__category3">
                             <a href="#">
                                 Khách sạn
                             </a>
+                            <div class="header__bottom--listlink__category3--list">
+                                <ul class="header__bottom--listlink__category3--list__item">
+                                    <div class="header__bottom--listlink__allcategory--list__item--content">
+                                        <p><a href="#">Combo di lịch Đà Lạt</a></p>
+                                        <p><a href="#">Khách sạn</a></p>
+                                        <p><a href="#">Villa</a></p>
+                                        <p><a href="#">Homestay</a></p>
+                                        <p><a href="#">Nhà nghỉ</a></p>
+                                    </div>
+                                </ul>
+                            </div>
                         </li>
-                        <li>
+                        <li class="header__bottom--listlink__category5">
                             <a href="#">
                                 Thêu xe
                             </a>
+                            <div class="header__bottom--listlink__category5--list">
+                                <ul class="header__bottom--listlink__category5--list__item">
+                                    <div class="header__bottom--listlink__allcategory--list__item--content">
+                                        <p><a href="#">Xe máy</a></p>
+                                        <p><a href="#">Xe ô tô</a></p>
+                                        <p><a href="#">Xe điện</a></p>
+                                        <p><a href="#">Book xe</a></p>
+                                    </div>
+                                </ul>
+                            </div>
                         </li>
-                        <li>
+                        <li class="header__bottom--listlink__category4">
                             <a href="#">
                                 Về Chúng tôi
                             </a>
+                            <div class="header__bottom--listlink__category4--list">
+                                <ul class="header__bottom--listlink__category4--list__item">
+                                    <div class="header__bottom--listlink__allcategory--list__item--content">
+                                        <p><a href="#">Tour</a></p>
+                                        <p><a href="#">Tour săn mây</a></p>
+                                        <p><a href="#">Tour Đà Lạt một ngày</a></p>
+                                        <p><a href="#">Camping & Glamping</a></p>
+                                    </div>
+                                </ul>
+                            </div>
                         </li>
-                        <li>
-                            <a href="#">
-                                Bạn muốn đi đâu?
-                            </a>
-                        </li>
-                        <li>
+                        <li class="header__bottom--listlink__category6">
                             <a href="#" class="header__bottom--listlink__la">
                                 <ion-icon name="ellipse"></ion-icon>
                                 <ion-icon name="ellipse"></ion-icon>
                                 <ion-icon name="ellipse"></ion-icon>
                             </a>
+                            <div class="header__bottom--listlink__category6--list">
+                                <ul class="header__bottom--listlink__category6--list__item">
+                                    <div class="header__bottom--listlink__allcategory--list__item--title">
+                                        Thêm nhiều khám phá
+                                    </div>
+                                    <div class="header__bottom--listlink__allcategory--list__item--content">
+                                        <p><a href="#">Wifi & thẻ SIM</a></p>
+                                        <p><a href="#">Ẩm thực</a></p>
+                                        <p><a href="#">Du lịch</a></p>
+                                    </div>
+                                </ul>
+                            </div>
                         </li>
                         
                     </ul>
                 </div>
                 
                 <div class="header__bottom--voucher">
-                    <img src="/img/icon-voucher.png" alt="">
+                    <img src="/assets/img/home-icon-voucher.png" alt="">
                     <a href="header__bottom--voucher__link">
                         Phiếu quà tặng Đà Lạt Review
                     </a>
                 </div>
             </div>
         </div>
-    </header>
-    <section class="home">
         <!-- slider home -->
         <div class="home__slider">
            <div class="home__slider--show">
             <div class="home__slider--list__images">
-             <img class="home__slider--item__image" src="/img/image-1.webp"\>
-             <img class="home__slider--item__image" src="/img/image-2.webp"\>
-             <img class="home__slider--item__image" src="/img/image-3.jpg"\>
+             <img class="home__slider--item__image" src="/assets/img/home-slider-1.webp"\>
+             <img class="home__slider--item__image" src="/assets/img/home-slider-2.webp"\>
+             <img class="home__slider--item__image" src="/assets/img/home-slider-3.jpg"\>
             </div>
             <div class="home__slider--btns">
-                <div class="home__slider--btn__left btn"><ion-icon name="chevron-back"></ion-icon></div>
-                <div class="home__slider--btn__right btn"><ion-icon name="chevron-forward"></ion-icon></div>
+                <div class="home__slider--btn__left btn-slider"><ion-icon name="chevron-back"></ion-icon></div>
+                <div class="home__slider--btn__right btn-slider"><ion-icon name="chevron-forward"></ion-icon></div>
             </div>
             <div class="home__slider--contents">
                 <p class="home__slider--content__title">đà lạt trọn niềm vui</p>
@@ -221,16 +290,210 @@
                         <input type="text" placeholder="Tour Săn Mây...">
                     </div>
                     <input class="home__slider--searchbox__btn" type="button" value="Khám phá">
-
                 </div>
             </div>
            </div>
         </div>
-        <!-- sales home -->
-        <div class="sales__home">
-
+        <!-- banner & box search mobile home -->
+       <div class="home__banner--search__mobile">
+            <div class="home__banner--search__mobile--box">
+                <div class="home__search--box">
+                    <ion-icon name="search-outline"></ion-icon>
+                    <input type="text" placeholder="Tìm kiếm theo địa điểm, hoạt động">
+                </div>
+                <div class="home__banner--mobile">
+                     <div class="home__banner--mobile__top">
+                        <a href="#" class="home__banner--mobile__top--item">
+                            <img src="/assets/img/home-moblie-menu-item-5.png" alt="img">
+                            <span>Tour & Trải nghiệm</span>
+                        </a>
+                        <a href="#" class="home__banner--mobile__top--item">
+                            <img src="/assets/img/home-moblie-menu-item-4.png" alt="img">
+                            <span>Vé tham quan</span>
+                        </a>
+                        <a href="#" class="home__banner--mobile__top--item">
+                            <img src="/assets/img/home-moblie-menu-item-3.png" alt="img">
+                            <span>Chỗ nghỉ</span>
+                        </a>
+                        <a href="#" class="home__banner--mobile__top--item">
+                            <img src="/assets/img/home-moblie-menu-item-2.png" alt="img">
+                            <span>Di chuyển</span>
+                        </a>
+                        <a href="#" class="home__banner--mobile__top--item">
+                            <img src="/assets/img/home-moblie-menu-item-1.png" alt="img">
+                            <span>Thuê xe tự lái</span>
+                        </a>
+                     </div>
+                     <a href="#" class="home__banner--mobile__bottom">
+                        <img src="/assets/img/home-moblie-all-category.png" alt="img">
+                        <span>Tất cả các mục</span>
+                     </a>
+                </div>
+            </div>
+       </div>
+       <!-- home sale banner -->
+       <div class="home__sale--banner">
+        <div class="home__sale--banner__container">
+            <div class="home__sale--banner__container--header">
+                <p>Ưu đãi hấp dẫn</p>
+            </div>
+            <div class="home__sale--banner__container--list">
+                <div class="home__sale--banner__container--list__item">
+                    <a href="#">
+                        <img src="/assets/img/home-sale-banner-img-3.png" alt="">
+                    </a>
+                </div>
+                <div class="home__sale--banner__container--list__item">
+                    <a href="">
+                        <img src="/assets/img/home-sale-banner-img-2.png" alt="">
+                    </a>
+                </div>
+                <div class="home__sale--banner__container--list__item last">
+                   <a href="">
+                        <img src="/assets/img/home-sale-banner-img-1.png" alt="">
+                   </a>
+                </div>
+                <div class="home__sale--banner__container--list__item more">
+                    <a href="">
+                        <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
         </div>
+       </div>
+       <!-- home info banner -->
+       <div class="home__info--banner">
+        <div class="home__info--banner__container">
+            <div class="home__info--banner__container--header">
+                <p>Vì sao bạn nên chọn Đà Lạt Review</p>
+            </div>
+            <div class="home__info--banner__container--list">
+                <div class="home__info--banner__container--list__item">
+                    <img src="/assets/img/home-info-banner-img-3.png" alt="img">
+                    <p>Vô vàn lựa chọn</p>
+                    <span>Tìm kiếm niềm vui với gần nửa triệu điểm tham quan, phòng khách sạn và nhiều trải nghiệm thú vị</span>
+                </div>
+                <div class="home__info--banner__container--list__item">
+                    <img src="/assets/img/home-info-banner-img-2.png" alt="img">
+                    <p>Chơi vui, giá tốt</p>
+                    <span>Trải nghiệm chất lượng với giá tốt. Tích luỹ Klook credit để được thêm ưu đãi</span>
+                </div>
+                <div class="home__info--banner__container--list__item">
+                    <img src="/assets/img/home-info-banner-img-1.png" alt="img">
+                    <p>Dễ dàng và tiện lợi</p>
+                    <span>Đặt vé xác nhận ngay, miễn xếp hàng, miễn phí hủy, tiện lợi cho bạn tha hồ khám phá</span>
+                </div>
+                <div class="home__info--banner__container--list__item">
+                    <img src="/assets/img/home-info-banner-img-3.png" alt="img">
+                    <p>Đáng tin cậy</p>
+                    <span>Tham khảo đánh giá chân thực. Dịch vụ hỗ trợ tận tình, đồng hành cùng bạn mọi lúc, mọi nơi</span>
+                </div>
+            </div>
+        </div>
+       </div>
+        <!-- home product hot banner -->
+       <div class="home__product--banner">
+        <div class="home__product--banner__container">
+            <div class="home__product--banner__container--header">
+                <p>Trải nghiểm nổi bật</p>
+            </div>
+            <div class="home__product--banner__container--list">
+                <div class="home__product--banner__container--list__item">
+                    <img src="/assets/img/home-product-hot-img-1.png" alt="img">
+                    <div class="home__product--banner__container--list__item--content">
+                        <div class="home__product--banner__item--content__top">
+                            <p class="home__product--banner__item--content__title">Vé Du Thuyền Spectrum of the Seas của Royal Caribbean</p>
+                            <p class="home__product--banner__item--content__star">
+                                <ion-icon name="star"></ion-icon><span>4.5</span>
+                                <span>
+                                    <span>1.200.000</span> 
+                                    <span>lược bình chọn</span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="home__product--banner__item--content__bottom">
+                            <p class="home__product--banner__item--content_priceSale">
+                                <span>đ</span> <span>1.000.000</span>
+                            </p>
+                            <p class="home__product--banner__item--content_priceOrigin">
+                                <span>đ</span> <span>1.200.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__product--banner__container--list__item">
+                    <img src="/assets/img/home-product-hot-img-1.png" alt="img">
+                    <div class="home__product--banner__container--list__item--content">
+                        <div class="home__product--banner__item--content__top">
+                            <p class="home__product--banner__item--content__title">Vé Du Thuyền Spectrum of the Seas của Royal Caribbean</p>
+                            <p class="home__product--banner__item--content__star">
+                                <ion-icon name="star"></ion-icon><span>4.5</span>
+                                <span>
+                                    <span>1.200.000</span> 
+                                    <span>lược bình chọn</span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="home__product--banner__item--content__bottom">
+                            <p class="home__product--banner__item--content_priceSale">
+                                <span>đ</span> <span>1.000.000</span>
+                            </p>
+                            <p class="home__product--banner__item--content_priceOrigin">
+                                <span>đ</span> <span>1.200.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__product--banner__container--list__item">
+                    <img src="/assets/img/home-product-hot-img-1.png" alt="img">
+                    <div class="home__product--banner__container--list__item--content">
+                        <div class="home__product--banner__item--content__top">
+                            <p class="home__product--banner__item--content__title">Vé Du Thuyền Spectrum of the Seas của Royal Caribbean</p>
+                            <p class="home__product--banner__item--content__star">
+                                <ion-icon name="star"></ion-icon><span>4.5</span>
+                                <span>
+                                    <span>1.200.000</span> 
+                                    <span>lược bình chọn</span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="home__product--banner__item--content__bottom">
+                            <p class="home__product--banner__item--content_priceSale">
+                                <span>đ</span> <span>1.000.000</span>
+                            </p>
+                            <p class="home__product--banner__item--content_priceOrigin">
+                                <span>đ</span> <span>1.200.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__product--banner__container--list__item">
+                    <img src="/assets/img/home-product-hot-img-1.png" alt="img">
+                    <div class="home__product--banner__container--list__item--content">
+                        <div class="home__product--banner__item--content__top">
+                            <p class="home__product--banner__item--content__title">Vé Du Thuyền Spectrum of the Seas của Royal Caribbean</p>
+                            <p class="home__product--banner__item--content__star">
+                                <ion-icon name="star"></ion-icon><span>4.5</span>
+                                <span>
+                                    <span>1.200.000</span> 
+                                    <span>lược bình chọn</span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="home__product--banner__item--content__bottom">
+                            <p class="home__product--banner__item--content_priceSale">
+                                <span>đ</span> <span>1.000.000</span>
+                            </p>
+                            <p class="home__product--banner__item--content_priceOrigin">
+                                <span>đ</span> <span>1.200.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
     </section>
-    <script src="/js/main.js"></script>
+    <script src="/page/home/home.js"></script>
 </body>
 </html>
