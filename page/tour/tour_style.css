@@ -1,19 +1,20 @@
-@import "../../../style.css";
+@import "../../style.css";
 @import "../../assets/components/root.css";
 
 .tour {
 }
 /* banner */
 .tour__banner {
-  background-image: url("../../img/tourbanner.jpg");
+  background-image: url("../../assets/img/tourbanner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 330px;
   padding-top: 64px;
+  margin-bottom: 20px;
 }
 .tour__banner--heading {
-  color: var(--color-text-8);
+  color: var(--color-text-6);
   font-family: "Montserrat", sans-serif;
 }
 .tour__banner--heading h1 {
@@ -45,7 +46,49 @@
 .tour__banner--search__input input {
     font-size: var(--size-text-5);
 }
-.tour__filter{
+/* filter */
+.quick__filter--entry__content{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.quick__filter--entry__content--right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+.fliter__category{
+  display: flex;
+  flex-direction: column;
+}
+.fliter__category--content{
+  display: flex;
+  align-items: center;
+}
+.fliter__category--content__box{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.fliter__category--content__box--item{
   
+  border-radius: var(--border-radius-size-5);
+  background-color: var(--color-background-12);
+  padding: 8px 13px;
+  font-size: var(--size-text-4);
+  margin: 0 10px;
+}
+.fliter__category--content__box--item a{
+  color: var(--color-text-10);
+}
+.fliter__category--content__box--item:hover {
+  cursor: pointer;
+}
+.filter__date{
+  margin-left: 10px;
+}
+.filter__price{
+  margin: 0 10px 0 20px;
 }

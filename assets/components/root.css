@@ -17,6 +17,8 @@
 	--color-background-14:#EFF6FC;
 	--color-background-15:#030180;
 	--color-background-16:#E6E6E6;
+	--color-background-17:#e05000;
+	--color-background-18:#fef1e5;
 	
     /* List color text */
 	--color-text-0:#000000;
@@ -36,6 +38,8 @@
     --color-text-14:#EFF6FC;
 	--color-text-15:#030180;
     --color-text-16:#E6E6E6;
+    --color-text-17:#e05000;
+    --color-text-18:#fef1e5;
 
 	/* List text size */
 	--size-text-0:6px;

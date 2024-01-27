@@ -6,7 +6,9 @@
     <title>Tours</title>
     <link href="../../page/tour/tour_style.css" rel="stylesheet">
     <link href="../../assets/components/reuse.css" rel="stylesheet">
-    <!-- <link href="../../img/logo_Congty.png" rel="icon" type="image/x-icon"/> -->
+
+
+    <link href="../../img/logo_Congty.png" rel="icon" type="image/x-icon"/>
     <link href="../index.html">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -42,38 +44,85 @@
                 </div>
             </div>
         </div>
-        <!-- category -->
-        <div class="tour__filter row-max-width ">
-            <div class="primary__dropdown">
-                <div class="primary__dropdown--button">
-                      <span>Tất cả danh mục</span>
-                      <div class="primary__dropdown--icon">
-                          <ion-icon name="chevron-down-outline"></ion-icon>
-                      </div>
-                </div>
-                
-            </div>
-            <div class="tour__filter--menu">
-                <div class="tour__filter--menu__item">
-                    <spam>Tour Săn Mây</spam>
-                </div>
-                <div class="tour__filter--menu__item">
-                    <spam>Tour Đà Lạt 1 ngày</spam>
-                </div>
-            </div>
+        <!-- filter -->
+        <div class="search__filter tour__search--filter row-max-width">
+            <!-- filter left-->
+            <div class="search__filter--left">
+                <div class="quick__filter--entry">
+                    <div class="quick__filter--entry__wrapper">
+                        <div class="quick__filter--entry__content">
+                            <div class="quick__filter--entry__content--left">
+                                <div class="fliter__category">
+                                    <div class="fliter__category--content ">
+                                        <div class="primary__dropdown">
+                                            <div class="primary__dropdown--button" id="primaryDropdown" onclick="primaryDropdownHidden()">
+                                                <span>Tất cả danh mục</span>
+                                                <div class="primary__dropdown--icon">
+                                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                                </div>
+                                            </div>
+                                            <div class="primary__dropdown--content" id="primaryDropdownHidden"">
+                                                <ul class="primary__dropdown--content__list" aria-labelledby="dropdownMenuButton1">
+                                                    <li><a class="primary__dropdown--content__list--item" href="#">Tour Camping Đà Lạt</a></li>
+                                                    <li><a class="primary__dropdown--content__list--item" href="#">Tour Săn mây</a></li>
+                                                    <li><a class="primary__dropdown--content__list--item" href="#">Tour Đà Lạt 1 ngày</a></li>
+                                                    <li><a class="primary__dropdown--content__list--item" href="#">Tour Theo Tự Chọn</a></li>
+                                                  </ul>
+                                            </div>
 
-        </div>
-        <!-- dropdown -->
-        <div class="primary__dropdown--menu">
-            <ul class="primary__dropdown--menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="primary__dropdown--menu--item" href="#">Tour Camping Đà Lạt</a></li>
-                <li><a class="primary__dropdown--menu--item" href="#">Tour săn mây</a></li>
-                <li><a class="primary__dropdown--menu--item" href="#">Tour Đà Lạt 1 ngày</a></li>
-                <li><a class="primary__dropdown--menu--item" href="#">Tour theo tự chọn</a></li>
-              </ul>
+                                        </div>
+                                        <div class="fliter__category--content__box">
+                                            <div class="fliter__category--content__box--item">
+                                                <a>Tour Camping</a>
+                                            </div>
+                                            <div class="fliter__category--content__box--item">
+                                                <a>Tour Săn Mây</a>
+                                            </div>
+                                            <div class="fliter__category--content__box--item">
+                                                <a>Tour Đà Lạt 1 ngày</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div class="gap"></div>
+                            <div class="quick__filter--entry__content--right">
+                                <div class="filter__date primary__dropdown--button">
+                                    <span>Ngày tham gia</span>
+                                    <div class="primary__dropdown--icon">
+                                        <ion-icon name="chevron-down-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                <div class="filter__price primary__dropdown--button">
+                                    <span>Lọc theo giá</span>
+                                    <div class="primary__dropdown--icon">
+                                        <ion-icon name="chevron-down-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- filter right-->
+            <div class="search__filter--right">
+                <div class="total__filter">
+                    <div class="total__filter--btn">
+                        <div class="total__filter--btn__icon">
+                            <ion-icon name="filter-outline"></ion-icon>
+                        </div>
+                        <div class="total__filter--btn__text">
+                            <span>Lọc</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         
     </div>
     
+<script src="./tour.js"></script>
+
 </body>
 </html>
