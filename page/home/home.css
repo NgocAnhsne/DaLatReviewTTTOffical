@@ -180,7 +180,7 @@
     visibility: hidden;
     position: absolute;
     top: 130%;
-    left: -300%;
+    left: -310%;
     width: 1160px;
     height: calc(100vh - 115.8px);
     background-color: #fff;
@@ -460,30 +460,89 @@
     font-size: var(--size-text-4);
 }
 
-/* home sale banner */
+/* home sale/info/product banner */
+.home__product--banner,
+.home__info--banner,
 .home__sale--banner{
-    margin-top: 69px;
+    margin-top: 79px;
     width: 100%;
 }
+.home__product--banner__container,
+.home__info--banner__container,
 .home__sale--banner__container{
     width: 100%;
     max-width: 1160px;
     margin: 0 auto;
 }
+.home__product--banner__container--header p,
+.home__info--banner__container--header p,
 .home__sale--banner__container--header p{
     font-size: var(--size-text-10);
     margin-bottom: 29px;
 }
+.home__info--banner__container--list,
 .home__sale--banner__container--list{
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-
-
-
-
-
+.home__product--banner__container--list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, .5fr));
+    grid-gap:20px;
+}
+.home__info--banner__container--list__item img{
+    width: 25%;
+    margin-bottom: 15px;
+}
+.home__info--banner__container--list__item p{
+    font-size: var(--size-text-6);
+    margin-bottom:15px;
+    font-weight: 500;
+}
+.home__info--banner__container--list__item span{
+    font-size: var(--size-text-4);
+    color: var(--color-text-2);
+}
+.home__info--banner__container--list__item{
+    width: 23%;
+}
+.home__sale--banner__container--list__item{
+    width: 30.8%;
+}
+.home__product--banner__container--list__item img,
+.home__sale--banner__container--list__item img{
+   width: 100%;
+   border-radius: var(--border-radius-size-3);
+}
+.home__product--banner__container--list__item img{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.home__sale--banner__container--list__item.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3%;
+}
+.home__sale--banner__container--list__item.more a ion-icon{
+    font-size: var(--size-text-9);
+    color: var(--color-text-11);
+}
+.home__product--banner__container--list__item--content{
+    padding: 15px 20px;
+    border: 1px solid var(--color-background-3);
+}
+.home__product--banner__item--content__title{
+    font-size: var(--size-text-5);
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.home__product--banner__item--content__star span,
+.home__product--banner__item--content__star ion-icon{
+    color: var(--color-background-5);
+}
 
 
 
